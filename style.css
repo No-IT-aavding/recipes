@@ -3,8 +3,13 @@ body {
 }
 
 h1 {
+   
     text-align: center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.heading:hover {
+    animation: easter 1s infinite;
 }
 
 img{
@@ -13,7 +18,7 @@ img{
 }
 
 a{
-    animation: ani 5s infinite;
+    animation: ani 4s infinite;
     border: 1px dashed black;
     padding: 1em;
     background-color: rgb(211, 190, 115);
@@ -50,5 +55,34 @@ a{
         color: orange;
     }
 
+
+}
+
+@keyframes easter {
+    
+    0%{
+        color: pink;
+        font-size: 30px;
+    }
+
+    20%{
+        color: lightskyblue;
+        font-size: 35px;
+    }
+
+    40%{
+        color: blue;
+        font-size: 40px;
+    }
+
+    60%{
+        color:violet;
+        font-size: 35px;
+    }
+
+    80%{
+        color: red;
+        font-size: 30px;
+    }
 
 }
