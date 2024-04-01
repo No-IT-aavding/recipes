@@ -13,12 +13,14 @@ img{
 }
 
 a{
+    animation: ani 5s infinite;
     border: 1px dashed black;
     padding: 1em;
     background-color: rgb(211, 190, 115);
 }
 
 .palak {
+
     color: green;
 }
 
@@ -28,4 +30,25 @@ a{
 
 .pasta{
     color: grey;
+}
+
+@keyframes ani
+{
+    0%{
+        color: honeydew;
+    }
+
+    25%{
+        color: pink;
+    }
+
+    50%{
+        color: red;
+    }
+
+    75%{
+        color: orange;
+    }
+
+
 }
