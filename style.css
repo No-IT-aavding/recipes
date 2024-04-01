@@ -1,0 +1,26 @@
+
+.heading {
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+img{
+    height:auto;
+    width: 35%;
+}
+
+a{
+    background-color: rgb(245, 246, 234);
+}
+
+.palak {
+    color: green;
+}
+
+.butter{
+    color : rgb(181, 66, 24);
+}
+
+.pasta{
+    color: grey;
+}
