@@ -1,9 +1,20 @@
 body {
-    background-color: rgb(229, 232, 190);
+    background-color: #FFE4CF;
+    margin:0;
+    padding:0;
 }
 
-h1 {
-   
+div{
+    margin: auto;
+    text-align: center;
+}
+
+.heading {
+    background-color: #E72929;
+    color: #FFFDD7;
+    border: 2px solid black;
+    margin: 32px 115px;
+    border-radius: 25px;
     text-align: center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
@@ -12,30 +23,42 @@ h1 {
     animation: easter 1s infinite;
 }
 
-img{
-    height:auto;
-    width: 35%;
+.intro{
+    font-size: 22px;
+    
 }
+
+img{
+    margin: 32px auto;
+    height:auto;
+    width: 50%;
+}
+
+
+.rep{
+    display: inline-block;
+    background-color: #FF5BAE;
+    font-size: 25px;
+    margin-top: 2rem;
+    margin: 16px;
+    padding: 14px;
+    border-radius: 20px;
+}
+
+.rep:hover{
+    transition: transform 0.1s ease;
+    transform: scale(1.2);
+}
+
 
 a{
-    animation: ani 4s infinite;
-    border: 1px dashed black;
-    padding: 1em;
-    background-color: rgb(211, 190, 115);
+    color: #FFFDD7;
+    text-decoration: none;
 }
 
-.palak {
 
-    color: green;
-}
 
-.butter{
-    color : rgb(181, 66, 24);
-}
 
-.pasta{
-    color: grey;
-}
 
 @keyframes ani
 {
@@ -71,7 +94,7 @@ a{
     }
 
     40%{
-        color: blue;
+        color: rgb(233, 91, 119);
         font-size: 40px;
     }
 
@@ -81,7 +104,7 @@ a{
     }
 
     80%{
-        color: red;
+        color: rgb(251, 235, 146);
         font-size: 30px;
     }
 
